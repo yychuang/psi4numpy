@@ -1,3 +1,24 @@
+# Using PSi4Numpy
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yychuang/109-2-compchem-lite/HEAD?filepath=index.ipynb)  (notebook) 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yychuang/109-2-compchem-lite/HEAD?urlpath=lab) (lab)
+
+
+If you use `environment.yml`, then Binder will use a Miniconda distribution
+to install your packages. However, you may still want to use `pip`. In
+this case, you should **not** use a `requirements.txt` file, but instead use
+a `- pip` section in `environment.yml`. This repository is an example of how
+to construct your `environment.yml` file to accomplish this.
+
+
+Working
+* Notebook 
+* Lab
+
+
+
+
 <p align="center">
 <br>
 <img src="media/psi4numpybanner.png" alt="Psi4NumPy banner logo" height=200> <br>
